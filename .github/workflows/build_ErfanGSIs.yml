@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
+              ./transfer gof final/GSI.zip
          run: |
               mkdir final
               zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
